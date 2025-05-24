@@ -4,6 +4,7 @@ import Button from "../Button/Button";
 import CardTitle from "./CardTitle";
 import CardDescription from "./CardDescription";
 import PropTypes from "prop-types";
+import '../globalstyle.css'
 
 
 const Card = ({ children, size,

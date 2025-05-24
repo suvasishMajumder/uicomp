@@ -1,0 +1,58 @@
+Here are some **highly reusable components** you can add to your UI library to showcase your frontend skills:
+
+---
+
+### 1. **Alert / Toast**
+- For showing notifications, errors, or success messages.
+
+### 2. **Modal / Dialog**
+- For pop-up dialogs, confirmations, or forms.
+
+### 3. **Checkbox & Radio**
+- Custom styled checkbox and radio button components.
+
+### 4. **Select / Dropdown**
+- For selecting options from a list.
+
+### 5. **Avatar**
+- For user profile pictures, with fallback initials.
+
+### 6. **Badge**
+- For status indicators, counts, or labels.
+
+### 7. **Tabs**
+- For tabbed navigation/content switching.
+
+### 8. **Tooltip**
+- For showing extra info on hover/focus.
+
+### 9. **Loader / Spinner**
+- For indicating loading states.
+
+### 10. **Navbar / AppBar**
+- For top navigation bars.
+
+### 11. **Breadcrumbs**
+- For showing navigation paths.
+
+### 12. **Pagination**
+- For navigating through pages of data.
+
+### 13. **Accordion**
+- For collapsible content sections.
+
+### 14. **Switch / Toggle**
+- For on/off switches.
+
+### 15. **Slider / Range Input**
+- For selecting a value or range.
+
+---
+
+**Tip:**  
+Make each component:
+- Accept flexible props (`children`, `className`, `style`, etc.)
+- Be accessible (keyboard, ARIA)
+- Support theming/variants
+
+Adding even a few of these will make your UI library look much more complete and professional!

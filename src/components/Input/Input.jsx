@@ -1,6 +1,7 @@
 import React from 'react'
 import './inputstyle.css'
 import PropTypes from 'prop-types'
+import '../globalstyle.css'
 
 const Input = ({children,type,placeholder,style,className,...rest}) => {
   return (

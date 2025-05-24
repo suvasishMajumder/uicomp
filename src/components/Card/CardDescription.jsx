@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react'
-
+import '../globalstyle.css'
 const CardDescription = ({children,style,className,...rest}) => {
   return (
    <p  className={`${className}`} style={style} {...rest}>{children}</p>
@@ -8,7 +8,7 @@ const CardDescription = ({children,style,className,...rest}) => {
 }
 
 
-CardDescription.PropTypes ={
+CardDescription.propTypes ={
 
   children:PropTypes.node.isRequired,
 

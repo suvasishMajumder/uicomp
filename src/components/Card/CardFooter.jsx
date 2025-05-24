@@ -1,6 +1,7 @@
 import React from "react";
 import "./cardstyle.css";
 import PropTypes from "prop-types";
+import '../globalstyle.css'
 
 const CardFooter = ({ children, className , style , ...rest }) => {
   return (
@@ -10,7 +11,7 @@ const CardFooter = ({ children, className , style , ...rest }) => {
   );
 };
 
-CardFooter.PropTypes = {
+CardFooter.propTypes = {
   children: PropTypes.node.isRequired,
   style: PropTypes.object,
   className: PropTypes.string,

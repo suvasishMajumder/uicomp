@@ -4,6 +4,9 @@ import Button from "./components/Button/Button";
 import {Input} from "./components/Input/index";
 import { Card , CardTitle , CardFooter , CardDescription }
  from "./components/Card/index";
+import Label from "./components/Label/Label";
+import CheckBox from "./components/CheckBox/CheckBox";
+
 
 
 const App = () => {
@@ -27,7 +30,7 @@ const App = () => {
         flexDirection: "column",
       }}
     >
-      <Button
+      {/* <Button
         onClick={() => handleAlert()}
         style={{ marginBottom: "50px" }}
         className="btn-primary-l btn-2xl"
@@ -60,7 +63,15 @@ const App = () => {
      
 </CardFooter>
            
-      </Card>
+      </Card> */}
+
+<div style={{ display: 'flex', alignItems: 'center', gap: '2px' }}>
+  <CheckBox id="accept" />
+  <Label htmlFor="accept" size="label-xl">
+    Accept Terms & Conditions
+  </Label>
+</div>
+
     </div>
   );
 };

@@ -1,6 +1,7 @@
 import React from "react";
 import "./cardstyle.css";
 import PropTypes from "prop-types";
+import '../globalstyle.css'
 
 const CardTitle = ({ children, variant, className, style, ...rest }) => {
   return (
@@ -10,7 +11,7 @@ const CardTitle = ({ children, variant, className, style, ...rest }) => {
   );
 };
 
-CardTitle.PropTypes = {
+CardTitle.propTypes = {
   children: PropTypes.node.isRequired,
   variant: PropTypes.string,
   className: PropTypes.string,
