@@ -1,0 +1,38 @@
+
+.common-layout{
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+.btn-primary-d{
+
+  background-color: rgb(4, 4, 4);
+  color: white;
+text-align: center;
+
+}
+
+
+.btn-primary-l{
+
+  background-color: rgb(213, 213, 213);
+  color: rgb(6, 6, 6);
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 10px;
+
+}
+
+
+.btn-sm{
+
+height: 24px; 
+width: 78px;
+border-radius: 15%;
+
+}
