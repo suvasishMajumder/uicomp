@@ -26,7 +26,7 @@ const App = () => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        height: "100vh", // Add this line
+        height: "500vh", // Add this line
         minWidth: "100vw",
         flexDirection: "column",
       }}
