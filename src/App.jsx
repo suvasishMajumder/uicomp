@@ -22,6 +22,7 @@ const App = () => {
     <div
       className=""
       style={{
+        backgroundColor:'#003b10',
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
